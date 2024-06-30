@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ShopDongHoModelStoreContainer" CdmEntityContainer="ShopDongHoEntities">
+    <EntitySetMapping Name="ChatLieu">
+      <EntityTypeMapping TypeName="ShopDongHoModel.ChatLieu">
+        <MappingFragment StoreEntitySet="ChatLieu">
+          <ScalarProperty Name="TenChatLieu" ColumnName="TenChatLieu" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatHang">
+      <EntityTypeMapping TypeName="ShopDongHoModel.DatHang">
+        <MappingFragment StoreEntitySet="DatHang">
+          <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+          <ScalarProperty Name="NgayDatHang" ColumnName="NgayDatHang" />
+          <ScalarProperty Name="DiaChiGiaoHang" ColumnName="DiaChiGiaoHang" />
+          <ScalarProperty Name="DienThoaiGiaoHang" ColumnName="DienThoaiGiaoHang" />
+          <ScalarProperty Name="KhachHang_ID" ColumnName="KhachHang_ID" />
+          <ScalarProperty Name="NhanVien_ID" ColumnName="NhanVien_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatHang_ChiTiet">
+      <EntityTypeMapping TypeName="ShopDongHoModel.DatHang_ChiTiet">
+        <MappingFragment StoreEntitySet="DatHang_ChiTiet">
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DongHo_ID" ColumnName="DongHo_ID" />
+          <ScalarProperty Name="DatHang_ID" ColumnName="DatHang_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DongHo">
+      <EntityTypeMapping TypeName="ShopDongHoModel.DongHo">
+        <MappingFragment StoreEntitySet="DongHo">
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="HinhAnhDH" ColumnName="HinhAnhDH" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="HanBaoHanh" ColumnName="HanBaoHanh" />
+          <ScalarProperty Name="MauSac" ColumnName="MauSac" />
+          <ScalarProperty Name="TenDongHo" ColumnName="TenDongHo" />
+          <ScalarProperty Name="XuatXu_ID" ColumnName="XuatXu_ID" />
+          <ScalarProperty Name="ChatLieu_ID" ColumnName="ChatLieu_ID" />
+          <ScalarProperty Name="TenLoai_ID" ColumnName="TenLoai_ID" />
+          <ScalarProperty Name="ThuongHieu_ID" ColumnName="ThuongHieu_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHang">
+      <EntityTypeMapping TypeName="ShopDongHoModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+          <ScalarProperty Name="HoVaten" ColumnName="HoVaten" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiDH">
+      <EntityTypeMapping TypeName="ShopDongHoModel.LoaiDH">
+        <MappingFragment StoreEntitySet="LoaiDH">
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanVien">
+      <EntityTypeMapping TypeName="ShopDongHoModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="Quyen" ColumnName="Quyen" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+          <ScalarProperty Name="HoVaTen" ColumnName="HoVaTen" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThuongHieu">
+      <EntityTypeMapping TypeName="ShopDongHoModel.ThuongHieu">
+        <MappingFragment StoreEntitySet="ThuongHieu">
+          <ScalarProperty Name="TenThuongHieu" ColumnName="TenThuongHieu" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="XuatXu">
+      <EntityTypeMapping TypeName="ShopDongHoModel.XuatXu">
+        <MappingFragment StoreEntitySet="XuatXu">
+          <ScalarProperty Name="TenQG" ColumnName="TenQG" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

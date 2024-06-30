@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="76f66e7946594875a3ceca3579d10185" Name="Diagram1" ZoomLevel="60">
+        <EntityTypeShape EntityType="ShopDongHoModel.ChatLieu" Width="1.5" PointX="7.5" PointY="3.5" />
+        <EntityTypeShape EntityType="ShopDongHoModel.DatHang" Width="1.5" PointX="18.125" PointY="2.375" />
+        <EntityTypeShape EntityType="ShopDongHoModel.DatHang_ChiTiet" Width="1.5" PointX="20.375" PointY="1.25" />
+        <EntityTypeShape EntityType="ShopDongHoModel.DongHo" Width="1.5" PointX="11.25" PointY="1.25" />
+        <EntityTypeShape EntityType="ShopDongHoModel.KhachHang" Width="1.5" PointX="14.375" PointY="6.625" />
+        <EntityTypeShape EntityType="ShopDongHoModel.LoaiDH" Width="1.5" PointX="7.625" PointY="5.75" />
+        <EntityTypeShape EntityType="ShopDongHoModel.NhanVien" Width="1.5" PointX="15.875" PointY="2" />
+        <EntityTypeShape EntityType="ShopDongHoModel.ThuongHieu" Width="1.5" PointX="6.875" PointY="1.25" />
+        <EntityTypeShape EntityType="ShopDongHoModel.XuatXu" Width="1.5" PointX="13.75" PointY="3.75" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DongHo__ChatLieu__49C3F6B7" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DatHang__KhachHa__45F365D3" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DatHang__NhanVie__46E78A0C" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DatHang_C__DatHa__47DBAE45" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DatHang_C__DongH__48CFD27E" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DongHo__TenLoai___4AB81AF0" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DongHo__ThuongHi__4BAC3F29" />
+        <AssociationConnector Association="ShopDongHoModel.FK__DongHo__XuatXu_I__4CA06362" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
